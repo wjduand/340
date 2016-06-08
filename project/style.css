@@ -1,0 +1,110 @@
+nav ul li{
+  display: inline;
+  font-family: Arial;
+}
+li{
+	padding: 30px;
+	color: #005a66;
+	font-family: Arial;
+}
+
+body {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Arial;
+	  margin: 40px;
+  padding: 6px;
+  border: none;
+  font: normal 16px/3 "Times New Roman", Times, serif;
+  color: rgba(76,76,76,1);
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+form{
+	text-align: center;
+	margin-left: 300px;
+	margin-right: 300px;
+	font-family: Arial;
+}
+
+footer{
+	margin-bottom: 10pt;
+	font-family: Arial;
+}
+
+nav{
+	padding: 30px;
+	background-color: #e5fcff;
+	color: #005a66;
+	font-family: Arial;
+}
+a:visited{
+	color: #005a66;
+	font-family: Arial;
+}
+#posttext{
+	width: 500px;
+	height: 300px;
+	text-align: left;
+	margin: center;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	font-family: Arial;
+}
+.postbutton{
+	text-align: center;
+	margin: auto;
+	margin-top: 15px;
+	font-family: Arial;
+}
+header, footer{
+	text-align: center;
+	background-color: grey;
+    color: white;
+    padding: 40px;
+    font-family: Arial;
+}
+footer{
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	font-family: Arial;
+}
+table{
+	margin: auto;
+	font-family: Arial;
+	width: 850px;
+	table-layout: fixed;
+}
+textarea{
+	text-align: left;
+	padding-left: 0;
+	font-family: Arial;
+	font-size: 18px;
+}
+legend{
+	font-size: 30px;
+	font-family: Arial;
+}
+fieldset{
+	margin-bottom: 15px;
+	font-family: Arial;
+}
+.others{
+	font-size: 25px;
+	text-align: center;
+	font-family: Arial;
+}
+td{
+	word-break: break-all;
+}
+.friends{
+	font-family: Arial;
+    text-align: left;
+}
+.comment{
+	color: grey;
+	font-size: 14px;
+}
