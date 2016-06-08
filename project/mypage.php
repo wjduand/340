@@ -43,7 +43,7 @@
 	if (!$result) {
 		die("Query to show fields from table failed");
 	}
-	$query1 = "SELECT userEmail1, userEmail2 FROM `Relationship` WHERE userEmail1 = '$email' OR userEmail2 = '$email';";
+	$query1 = "SELECT DISTINCT userEmail1, userEmail2 FROM `Relationship` WHERE userEmail1 = '$email' OR userEmail2 = '$email';";
 	$result1 = mysqli_query($conn, $query1);
 	$fields_num1 = mysqli_num_fields($result1);
 
@@ -124,6 +124,12 @@
 	}
 
 	mysqli_free_result($result);
+	mysqli_free_result($result1);
+	mysqli_free_result($result2);
+	mysqli_free_result($result3);
+	mysqli_free_result($result4);
+	mysqli_free_result($result5);
+	mysqli_free_result($result6);
 	mysqli_close($conn);
 ?>
      <?php include 'footer.php'; ?>

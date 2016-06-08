@@ -128,11 +128,16 @@
 	}
 	echo "</table>";
 	mysqli_free_result($result);
+	mysqli_free_result($res1);
+	mysqli_free_result($res2);
+	mysqli_free_result($res3);
+	mysqli_free_result($res4);
+	mysqli_free_result($res5);
 	mysqli_close($conn);
 ?>
 
     <?php 
-   
+    if($email){
     	echo "<p class='others'> Comment </p>";
     	echo "<form method='post' action='home.php' name = 'comment'>";	
     	echo "<div>";
@@ -143,6 +148,9 @@
     	echo "</div>";
 	    echo "<input type='submit' value='Submit' name='submit'/><br/><br/>";
 	    echo "</form>";
+    }
+   
+    	
    
 	
 	?>
